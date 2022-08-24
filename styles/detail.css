@@ -1,12 +1,10 @@
-body{
+body,main{
     height:100%;
     width:100%;
+    background-color: #e0e0e0;
+    margin:0%;
 }
-main
-{
-    height:100%;
-    width:100%;
-}
+
 #logo
 {
     width: 60px;
@@ -21,4 +19,19 @@ main
 {
     width:22px;
     height:20px;
+}
+header, footer{
+    background-color: rosybrown;
+}
+.content-div-img
+{
+    margin:2% 4% 0% 4%;
+}
+.content-div-form
+{
+    margin: 0% 4% 1% 4%;
+}
+.content-div-details
+{
+    margin: 1% 4% 2% 4%;
 }

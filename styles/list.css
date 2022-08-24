@@ -1,12 +1,10 @@
-body{
+body,main{
     height:100%;
     width:100%;
+    background-color: #e0e0e0;
+    margin: 0%;
 }
-main
-{
-    height:100%;
-    width:100%;
-}
+
 #logo
 {
     width: 60px;
@@ -16,9 +14,19 @@ main
 {
     width:250px;
     height:200px;
+    
 }
 .social-img
 {
     width:22px;
     height:20px;
+}
+footer,header
+{
+    background-color: rosybrown;
+}
+.hotel{
+    margin:2%;
+    width:40%;
+    background-color: rgb(132,136,139);
 }

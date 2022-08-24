@@ -3,15 +3,13 @@
     width:22px;
     height:20px;
 }
-body{
+body,main{
     height:100%;
     width:100%;
+    background-color: #e0e0e0;
+    margin:0%;
 }
-main
-{
-    height:100%;
-    width:100%;
-}
+
 #logo
 {
     width: 60px;
@@ -21,4 +19,25 @@ main
 {
     width:500px;
     height:500px;
+}
+header, footer{
+    background-color: rosybrown;
+}
+.content-div-img-and-details
+{
+    width:50%;
+    height: 20%;
+    background-color: rgb(132,136,139);
+    margin:2% auto;
+}
+.customer-details
+{
+    margin:2%;
+}
+.customer-tarif
+{
+    margin:2%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding:1% 2%;
 }

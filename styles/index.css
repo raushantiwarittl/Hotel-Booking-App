@@ -1,8 +1,15 @@
-main body
+body
 {
     height: 100%;
     width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
 }
+main{
+    height:100%;
+    width: 100%;
+}
+
 #logo
 {
     width: 60px;
@@ -12,9 +19,28 @@ main body
 {
     height: 150px;
     width: 150px;
+    margin: 4%;
+    border-radius: 25%;
+    
 }
 .social-img
 {
     width:22px;
     height:20px;
+}
+header, footer{
+    background-color: rosybrown;
+}
+#search-bar
+{   
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    height:380px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hotel-img-container
+{
+    margin-left: 15%;
+    margin-right: 15%;
 }
