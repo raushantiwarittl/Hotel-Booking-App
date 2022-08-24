@@ -1,0 +1,20 @@
+main body
+{
+    height: 100%;
+    width: 100%;
+}
+#logo
+{
+    width: 60px;
+    height: 60px;
+}
+.city-img
+{
+    height: 150px;
+    width: 150px;
+}
+.social-img
+{
+    width:22px;
+    height:20px;
+}
