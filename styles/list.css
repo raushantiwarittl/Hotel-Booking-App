@@ -3,8 +3,7 @@ body,main{
     width:100%;
     background-color: #e0e0e0;
     margin: 0%;
-    font-family:'Ubuntu', sans-serif;
-    
+    font-family:'Ubuntu', sans-serif;  
 }
 
 #logo
@@ -29,7 +28,7 @@ footer,header
 .hotel{
     margin:2%;
     width:40%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
 }
 footer
 {
@@ -78,4 +77,15 @@ a{
 #map-view
 {
     display:none;
+}
+.hotel
+{
+    display:inline-flex;
+    margin-bottom: 75px;
+}
+.image-details-div
+{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
 }
