@@ -4,10 +4,12 @@ body
     width: 100%;
     margin: 0px;
     background-color: #e0e0e0;
+    font-family:'Ubuntu', sans-serif;
 }
 main{
     height:100%;
     width: 100%;
+    font-family:'Ubuntu', sans-serif;
 }
 
 #logo
@@ -30,6 +32,7 @@ main{
 }
 header, footer{
     background-color: rosybrown;
+    
 }
 #search-bar
 {   
@@ -43,4 +46,46 @@ header, footer{
 {
     margin-left: 15%;
     margin-right: 15%;
+}
+footer
+{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    
+}
+header,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+}
+#search-bar
+{
+ display:flex;
+}
+.content-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    display:inline-block;
+    margin: auto auto;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.view-more
+{
+    margin-bottom:5%;
+    text-align: center;
 }

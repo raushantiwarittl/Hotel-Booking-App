@@ -3,6 +3,12 @@ body,main{
     width:100%;
     background-color: #e0e0e0;
     margin:0%;
+    font-family:'Ubuntu', sans-serif;
+}
+main{
+    height:100%;
+    width: 100%;
+    /* font-family:'Ubuntu', sans-serif; */
 }
 
 #logo
@@ -22,6 +28,7 @@ body,main{
 }
 header, footer{
     background-color: rosybrown;
+    
 }
 .content-div-img
 {
@@ -34,4 +41,21 @@ header, footer{
 .content-div-details
 {
     margin: 1% 4% 2% 4%;
+}
+footer
+{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+}
+header , footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

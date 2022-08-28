@@ -3,6 +3,8 @@ body,main{
     width:100%;
     background-color: #e0e0e0;
     margin: 0%;
+    font-family:'Ubuntu', sans-serif;
+    
 }
 
 #logo
@@ -13,8 +15,7 @@ body,main{
 .hotel-img
 {
     width:250px;
-    height:200px;
-    
+    height:200px; 
 }
 .social-img
 {
@@ -29,4 +30,52 @@ footer,header
     margin:2%;
     width:40%;
     background-color: rgb(132,136,139);
+}
+footer
+{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    
+}
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list-map-view
+{
+    text-align:center;
+}
+.list-map-view li{
+   
+   display:inline-block;
+}
+.list-map-view ul li
+{
+    padding: 0px 20px; 
+}
+.hotel{
+    display:inline-block;
+}
+.hotel1
+{
+    display:none;
+}
+#map-view
+{
+    display:none;
 }
