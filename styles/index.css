@@ -71,6 +71,7 @@ header{
     position: sticky;
     top:0;
     left:0;
+    
 }
 #search-bar
 {
@@ -97,17 +98,13 @@ input{
     margin-bottom:5%;
     text-align: center;
 }
-.hotel-img-container1 {
-   position: relative;
 
-  }
   
   .middle {
-    position: absolute;
+    position:absolute;
     opacity: 0;
     top: 50%;
     left: 50%;
-    /* background-color: rgba(red, green, blue, alpha); */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -132,3 +129,33 @@ input{
   .city-img{
     box-shadow: 10px 10px gray;
   }
+  header
+  {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+  }
+  .btn
+  {
+    margin-right:10px;
+    color:black;
+    background-color: white;
+  }
+  .modal-header, h4, .close {
+    color:rgb(0, 0, 0) !important;
+    text-align: center;
+    font-size: 25px;
+  }
+ .modal-footer
+ {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn-primary
+ {
+    background-color: #4cae4c;
+ }
+ 
+  

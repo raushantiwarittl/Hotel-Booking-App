@@ -89,3 +89,37 @@ a{
     flex-direction: column;
     margin-left:20px;
 }
+.modal-footer
+ {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn-primary
+ {
+    background-color: #4cae4c;
+ }
+ .list-map-view
+ {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+ }
+ /* .btn-default
+ {
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+ } */
+
+ .map-view-button:active
+ {
+    background-color: blue;
+ }
+ .hotel:hover{
+   background-color: rosybrown;
+  
+ }
+.image-details-div:hover{
+    text-decoration: none;
+}

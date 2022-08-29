@@ -52,7 +52,7 @@ header, footer{
     text-decoration: none;
     color: black;
     margin-top:20px;
-    padding: 20px;
+    padding: 10px;
 }
 footer
 {
@@ -97,5 +97,4 @@ header , footer{
     margin-left:10%;
     background-color: rosybrown;
     border-radius: 5px;
-    ma
 }

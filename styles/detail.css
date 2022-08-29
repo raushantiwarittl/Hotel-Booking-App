@@ -83,3 +83,24 @@ header , footer{
     margin:1%;
    height: 400px;
 }
+.btn
+  {
+    margin-right:10px;
+    color:black;
+    background-color: white;
+  }
+  .modal-header, h4, .close {
+    color:rgb(0, 0, 0) !important;
+    text-align: center;
+    font-size: 25px;
+  }
+ .modal-footer
+ {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn-primary
+ {
+    background-color: #4cae4c;
+ }
