@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="styles/list.css">
     <title>List</title>
 </head>
@@ -20,17 +21,11 @@
  <div>
       <div class="list-map-view">
         <nav >
-          <!-- <div class="container-fluid"> -->
             <ul >
               <li class="active"><a href="#list-view" class="btn" style="margin-left:10px;background-color:#5f5fe5;">List View</a></li>
               <li><a href="#map-view" class="btn map-view-button" style="color:black;">Map View</a></li>
             </ul>
-          <!-- </div> -->
         </nav>
-        <!-- <ul>
-            <a href="#list-view" ><li styel="text-decoration:none;" class="btn btn-default" style="background-color:blue;">List View</li></a>
-           <a href="#map-view" ><li styel="text-decoration: none;" class="btn btn-default" >Map View</li></a>
-          </ul> -->
       </div>
       <div id="list-view">
       <a href="detail.html">
@@ -39,7 +34,11 @@
         <div class="image-details-div">
           <h3>Radisson Blu Hotel</h3>
           <div>
-           <p>5 Star</p>
+            <i class='fa fa-star' style='color: #f39135'></i>
+            <i class='fa fa-star' style='color: #f39135'></i>
+            <i class='fa fa-star' style='color: #f39135'></i>
+            <i class='fa fa-star' style='color: #f39135'></i>
+            <i class='fa fa-star' style='color: #f39135'></i>
            <div><p>New Delhi</p></div>
         </div>
         </div>
@@ -49,16 +48,28 @@
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi" class="hotel-img">
         <div class="image-details-div">
         <h3>The Lalit New Delhi</h3>
-        <p>4.5 Star</p>
+        <div>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class="fa-solid fa-star-half-stroke"  style='color: #f39135'></i>
+          <i class='fa fa-star'></i>
         <p>New Delhi</p>
       </div>
+    </div>
     </div>
       <div class="hotel">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="The Taj Palace" class="hotel-img">
         <div class="image-details-div">
         <h3>The Taj Palace</h3>
-        <p>4.0 Star</p>
+        <div>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star' style='color: #f39135'></i>
+          <i class='fa fa-star'></i>
         <p>New Delhi</p>
+      </div>
     </div>
   </div>
   </div>
@@ -69,7 +80,6 @@
  </div>
  <footer>
   <div style="padding:1%;">
-    <!-- <a style="text-decoration:none;color: black;" href="contact.html">Contact Us</a> -->
     <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal1" style="background-color:#46b8da">Contact Us</button>
   </div>
   <div style="margin-top:1.5%;">
